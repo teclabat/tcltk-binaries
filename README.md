@@ -40,7 +40,6 @@ The package sources are updated once a week, and on compile success the binaries
 | tkcon | - | https://github.com/teclabat/fork-tkcon |
 | tkimg | trunk | https://sourceforge.net/p/tkimg |
 | tklib | - | https://core.tcl-lang.org/tklib |
-| tktable | - | https://github.com/teclabat/fork-tktable |
 | tkxcursor | - | https://github.com/teclabat/tkxcursor |
 | vectcl | - | https://github.com/teclabat/fork-vectcl |
 
