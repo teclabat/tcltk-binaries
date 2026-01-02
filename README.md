@@ -1,5 +1,5 @@
 This is the Tcl/Tk binary repository which I dedicate to the Tcl community.
-The package sources are updated once a week, and on compile success the binaries uploaded here https://gitlab.com/teclabat/tcltk/-/packages.
+The package sources are updated once a week, and on compile success the binaries uploaded here: https://github.com/teclabat/tcltk-binaries/releases
 
 **Tcl86** contains the following packages:
 
@@ -49,7 +49,7 @@ The package sources are updated once a week, and on compile success the binaries
 
 Occasionally the package registry might get deleted to save up some storage space. So please don't count on having kept old builds forever.
 
-You can file issues here https://gitlab.com/teclabat/tcltk/-/issues but I am not providing general Tcl support, for that I'd recommend https://stackoverflow.com/questions/tagged/tcl
+You can file issues here https://github.com/teclabat/tcltk-binaries/issues but I am not providing general Tcl support, for that I'd recommend https://stackoverflow.com/questions/tagged/tcl
 
 ## Liability
 All the work presented here was completed during my free time. Please ensure that you comply with all license terms, particularly those specific to each individual package. Any damage resulting from the use of this code and binaries is not my responsibility. I provide no liability nor warranty for this software.
