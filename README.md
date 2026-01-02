@@ -15,7 +15,6 @@ The package sources are updated once a week, and on compile success the binaries
 | parseargs | wip | https://github.com/teclabat/fork-parseargs |
 | photoresize | - | https://github.com/auriocus/photoresize |
 | rljson | wip | https://github.com/teclabat/fork-rljson |
-| sampleextension | - | https://core.tcl-lang.org/sampleextension |
 | snmptools | - | https://github.com/teclabat/fork-snmptools |
 | tbcload | - | https://github.com/teclabat/fork-tbcload |
 | tcl | core-8-6-branch | https://core.tcl-lang.org/tcl |
