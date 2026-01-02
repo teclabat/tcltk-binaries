@@ -1,14 +1,52 @@
 This is the Tcl/Tk binary repository which I dedicate to the Tcl community.
 The package sources are updated once a week, and on compile success the binaries uploaded here https://gitlab.com/teclabat/tcltk/-/packages.
 
-**Tcl86** contains the following packages: tcl tk tcllib tklib thread tcltls tkimg tbcload tkcon gse bwidget tdbc tdbcodbc tdbcpostgres tdbcmysql tdbcsqlite3 tcludp vectcl photoresize fftw sqlite3 rl_json snmptools;
+**Tcl86** contains the following packages:
 
-**Tcl86 Now with new modified `rl_json` package:** https://gitlab.com/teclabat/rl_json
+| Package | Branch | Repository |
+|---------|--------|------------|
+| bwidget | - | https://core.tcl-lang.org |
+| critcl | - | https://github.com/andreas-kupries |
+| itcl | itcl-4-0-6-rc | https://core.tcl-lang.org |
+| itk | itk-4-0-2-rc | https://core.tcl-lang.org |
+| iwidgets | - | https://core.tcl-lang.org |
+| man2html | - | https://github.com/teclabat |
+| md2html | - | https://github.com/teclabat |
+| parseargs | wip | https://github.com/teclabat |
+| photoresize | - | https://github.com/auriocus |
+| rljson | wip | https://github.com/teclabat |
+| sampleextension | - | https://core.tcl-lang.org |
+| snmptools | - | https://github.com/teclabat |
+| tbcload | - | https://github.com/teclabat |
+| tcl | core-8-6-branch | https://core.tcl-lang.org |
+| tclcompiler | - | https://github.com/teclabat |
+| tclconfig | - | https://core.tcl-lang.org |
+| tclcurl | - | https://github.com/teclabat |
+| tclfftw | - | https://github.com/teclabat |
+| tcllib | - | https://core.tcl-lang.org |
+| tclntcan | - | https://github.com/teclabat |
+| tclperformance | - | https://github.com/teclabat |
+| tclrsvisa | - | https://github.com/teclabat |
+| tclruff | - | https://github.com/teclabat |
+| tcltls | tls-2.0 | https://core.tcl-lang.org |
+| tcludp | wip | https://github.com/teclabat |
+| tdbc | - | https://core.tcl-lang.org |
+| tdbcmysql | - | https://core.tcl-lang.org |
+| tdbcodbc | - | https://core.tcl-lang.org |
+| tdbcpostgres | - | https://core.tcl-lang.org |
+| tdbcsqlite3 | - | https://core.tcl-lang.org |
+| tdom | - | https://www.tdom.org/index.html |
+| thread | thread-2-8-branch | https://core.tcl-lang.org |
+| tk | core-8-6-branch | https://core.tcl-lang.org |
+| tkcon | - | https://github.com/teclabat |
+| tkimg | trunk | https://svn.code.sf.net/p |
+| tklib | - | https://core.tcl-lang.org |
+| tktable | - | https://github.com/teclabat |
+| tkxcursor | - | https://github.com/teclabat |
+| vectcl | - | https://github.com/teclabat |
 
-**Tcl86 now comes with `snmptools` package compiled with libraries from `net-snmp`.**
 
-**Tcl90** has a reduced package set since not all libraries are compile clean for the new API: tcl tk tcllib tklib thread tkimg tkcon gse bwidget tdbc tdbcodbc tdbcpostgres tdbcmysql tdbcsqlite3; If a package fails to compile, I might remove it temporarily ... you might observe fluctuation.
-Also the new configure script requires `autoconf` 2.72 (latest greatest) which break compilation on older platforms. Anyhow I managed to compile on Debian 12 and Windows, but Ubuntu 20/22/RHEL9 I am going to abandon.
+**Tcl90** still in work, but will follow asap ...
 
 Occasionally the package registry might get deleted to save up some storage space. So please don't count on having kept old builds forever.
 
