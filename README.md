@@ -7,27 +7,25 @@ The package sources are updated once a week, and on compile success the binaries
 |---------|--------|------------|-------------|
 | bwidget | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
 | critcl | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
+| curl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. Not included in Ubuntu Focal since it fails to build. |
+| fftw | - | https://github.com/teclabat/tclffts | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
 | itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
 | itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
 | iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
+| ntcan | - | https://github.com/teclabat/tclntcan | Tcl bindings to ESD NTCAN API for CAN bus communication. |
 | parseargs | wip | https://github.com/teclabat/fork-parseargs | Core-style argument parsing for scripts. |
+| performance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher). |
 | photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
 | rljson | wip | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type. |
+| rsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
+| ruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
 | snmptools | - | https://github.com/teclabat/fork-snmptools | Sample TEA extension demonstrating the Tcl Extension Architecture. |
+| ssh2 | - | https://github.com/teclabat/fork-ssh2 | Provide SSH2 connectivity through libssh2.|
 | tbcload | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler. |
 | tcl | core-8-6-branch | https://core.tcl-lang.org/tcl | Tool Command Language (Tcl) scripting language. |
 | tclcompiler | - | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format. |
 | tclconfig | - | https://core.tcl-lang.org/tclconfig | Building blocks for Tcl Extension Architecture (TEA). |
-| curl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. Not included in Ubuntu Focal since it fails to build. |
-| fftw | - | https://github.com/teclabat/tclffts | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
 | tcllib | - | https://core.tcl-lang.org/tcllib | Collection of Tcl packages providing utility functions. |
-| ntcan | - | https://github.com/teclabat/tclntcan | Tcl bindings to ESD NTCAN API for CAN bus communication. |
-| performance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher). |
-| rsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
-| ruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
-| ssh2 | - | https://github.com/teclabat/fork-ssh2 | Provide SSH2 connectivity through libssh2.|
-| tls | tls-2.0 | https://core.tcl-lang.org/tcltls | SSL and TLS encryption over TCP using OpenSSL. |
-| udp | wip | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl. |
 | tdbc | - | https://core.tcl-lang.org/tdbc | Base classes and SQL tokenizer for Tcl Database Connectivity. |
 | tdbcmysql | - | https://core.tcl-lang.org/tdbcmysql | TDBC driver for MySQL databases. |
 | tdbcodbc | - | https://core.tcl-lang.org/tdbcodbc | TDBC driver for ODBC (Open Database Connectivity). |
@@ -39,8 +37,10 @@ The package sources are updated once a week, and on compile success the binaries
 | tkcon | - | https://github.com/teclabat/fork-tkcon | Enhanced Tk console for all platforms. |
 | tkimg | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
 | tklib | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
-| xcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
+| tls | tls-2.0 | https://core.tcl-lang.org/tcltls | SSL and TLS encryption over TCP using OpenSSL. |
+| udp | wip | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl. |
 | vectcl | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
+| xcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
 **Tcl90** still in work, but will follow asap ...
 
