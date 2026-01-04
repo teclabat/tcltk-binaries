@@ -5,43 +5,43 @@ The package sources are updated once a week, and on compile success the binaries
 
 | Package | Branch | Repository | Description |
 |---------|--------|------------|-------------|
-| bwidget | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces |
-| critcl | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts |
-| itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl |
-| itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes |
-| iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4 |
-| man2html | - | https://github.com/teclabat/man2html | Converts Unix manual pages (troff format) to HTML |
-| md2html | - | https://github.com/teclabat/md2html | Converts Markdown files to HTML using Pandoc |
-| parseargs | wip | https://github.com/teclabat/fork-parseargs | Core-style argument parsing for scripts |
-| photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing |
-| rljson | wip | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type |
-| snmptools | - | https://github.com/teclabat/fork-snmptools | Sample TEA extension demonstrating the Tcl Extension Architecture |
-| tbcload | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler |
-| tcl | core-8-6-branch | https://core.tcl-lang.org/tcl | Tool Command Language (Tcl) scripting language |
-| tclcompiler | - | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format |
-| tclconfig | - | https://core.tcl-lang.org/tclconfig | Building blocks for Tcl Extension Architecture (TEA) |
-| tclcurl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more |
-| tclfftw | - | https://github.com/teclabat/tclffts | High-performance interface to FFTW3 library for Fast Fourier Transform operations |
-| tcllib | - | https://core.tcl-lang.org/tcllib | Collection of Tcl packages providing utility functions |
-| tclntcan | - | https://github.com/teclabat/tclntcan | Tcl bindings to ESD NTCAN API for CAN bus communication |
-| tclperformance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher) |
-| tclrsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control |
-| tclruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection |
-| tcltls | tls-2.0 | https://core.tcl-lang.org/tcltls | SSL and TLS encryption over TCP using OpenSSL |
-| tcludp | wip | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl |
-| tdbc | - | https://core.tcl-lang.org/tdbc | Base classes and SQL tokenizer for Tcl Database Connectivity |
-| tdbcmysql | - | https://core.tcl-lang.org/tdbcmysql | TDBC driver for MySQL databases |
-| tdbcodbc | - | https://core.tcl-lang.org/tdbcodbc | TDBC driver for ODBC (Open Database Connectivity) |
-| tdbcpostgres | - | https://core.tcl-lang.org/tdbcpostgres | TDBC driver for PostgreSQL databases |
-| tdbcsqlite3 | - | https://core.tcl-lang.org/tdbcsqlite3 | TDBC driver for SQLite3 databases |
-| tdom | - | https://www.tdom.org/index.html | XML/DOM/XPath/XSLT/HTML/JSON implementation for Tcl |
-| thread | thread-2-8-branch | https://core.tcl-lang.org/thread | Script-level access to Tcl threading capabilities |
-| tk | core-8-6-branch | https://core.tcl-lang.org/tk | Graphical user interface toolkit for Tcl |
-| tkcon | - | https://github.com/teclabat/fork-tkcon | Enhanced Tk console for all platforms |
-| tkimg | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type |
-| tklib | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions |
-| tkxcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications |
-| vectcl | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors |
+| bwidget | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
+| critcl | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
+| itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
+| itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
+| iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
+| man2html | - | https://github.com/teclabat/man2html | Converts Unix manual pages (troff format) to HTML. |
+| md2html | - | https://github.com/teclabat/md2html | Converts Markdown files to HTML using Pandoc. |
+| parseargs | wip | https://github.com/teclabat/fork-parseargs | Core-style argument parsing for scripts. |
+| photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
+| rljson | wip | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type. |
+| snmptools | - | https://github.com/teclabat/fork-snmptools | Sample TEA extension demonstrating the Tcl Extension Architecture. |
+| tbcload | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler. |
+| tcl | core-8-6-branch | https://core.tcl-lang.org/tcl | Tool Command Language (Tcl) scripting language. |
+| tclcompiler | - | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format. |
+| tclconfig | - | https://core.tcl-lang.org/tclconfig | Building blocks for Tcl Extension Architecture (TEA). |
+| tclcurl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. Not included in Ubuntu Focal since it fails to build. |
+| tclfftw | - | https://github.com/teclabat/tclffts | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
+| tcllib | - | https://core.tcl-lang.org/tcllib | Collection of Tcl packages providing utility functions. |
+| tclntcan | - | https://github.com/teclabat/tclntcan | Tcl bindings to ESD NTCAN API for CAN bus communication. |
+| tclperformance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher). |
+| tclrsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
+| tclruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
+| tcltls | tls-2.0 | https://core.tcl-lang.org/tcltls | SSL and TLS encryption over TCP using OpenSSL. |
+| tcludp | wip | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl. |
+| tdbc | - | https://core.tcl-lang.org/tdbc | Base classes and SQL tokenizer for Tcl Database Connectivity. |
+| tdbcmysql | - | https://core.tcl-lang.org/tdbcmysql | TDBC driver for MySQL databases. |
+| tdbcodbc | - | https://core.tcl-lang.org/tdbcodbc | TDBC driver for ODBC (Open Database Connectivity). |
+| tdbcpostgres | - | https://core.tcl-lang.org/tdbcpostgres | TDBC driver for PostgreSQL databases. |
+| tdbcsqlite3 | - | https://core.tcl-lang.org/tdbcsqlite3 | TDBC driver for SQLite3 databases. |
+| tdom | - | https://www.tdom.org/index.html | XML/DOM/XPath/XSLT/HTML/JSON implementation for Tcl. |
+| thread | thread-2-8-branch | https://core.tcl-lang.org/thread | Script-level access to Tcl threading capabilities. |
+| tk | core-8-6-branch | https://core.tcl-lang.org/tk | Graphical user interface toolkit for Tcl. |
+| tkcon | - | https://github.com/teclabat/fork-tkcon | Enhanced Tk console for all platforms. |
+| tkimg | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
+| tklib | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
+| tkxcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
+| vectcl | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
 
 **Tcl90** still in work, but will follow asap ...
 
