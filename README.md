@@ -15,7 +15,7 @@ The package sources are updated once a week, and on compile success the binaries
 | parseargs | wip | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Core-style argument parsing for scripts. |
 | performance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher). |
 | photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
-| rljson | wip | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
+| rl_json | wip | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
 | rsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
 | snmptools | - | https://github.com/teclabat/fork-snmptools | Sample TEA extension demonstrating the Tcl Extension Architecture. |
