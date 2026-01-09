@@ -8,7 +8,7 @@ The package sources are updated once a week, and on compile success the binaries
 | bwidget | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
 | critcl | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
 | curl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. Not included in Ubuntu Focal since it fails to build. |
-| fftw | - | https://github.com/teclabat/tclffts | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
+| fftw | - | https://github.com/teclabat/tclfftw | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
 | itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
 | itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
 | iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
