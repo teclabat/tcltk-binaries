@@ -38,7 +38,7 @@ The package sources are updated once a week, and on compile success the binaries
 | tklib | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
 | tktable | - | https://github.com/teclabat/fork-tktable | A table/matrix widget extension to Tcl/Tk. |
 | tls | tls-2.0 | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=tls-2.0) | SSL and TLS encryption over TCP using OpenSSL. |
-| tnm | - | https://github.com/teclabat/fork-scotty/tree/main/tnm | Scotty Tcl extension for network management. Legacy Sun RPC has been disabled. |
+| tnm | wip | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
 | udp | wip | [https://github.com/teclabat/fork-tcludp](https://github.com/teclabat/fork-tcludp/tree/wip) | UDP socket support for Tcl. |
 | vectcl | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
 | xcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
