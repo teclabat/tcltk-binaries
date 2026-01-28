@@ -12,6 +12,7 @@ The package sources are updated once a week, and on compile success the binaries
 | itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
 | itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
 | iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
+| nats | - | https://github.com/teclabat/fork-nats-tcl | Tcl client library for the NATS messaging system. |
 | parseargs | wip | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Core-style argument parsing for scripts. |
 | performance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher). |
 | photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
