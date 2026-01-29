@@ -1,9 +1,9 @@
-This is the Tcl/Tk binary repository which I dedicate to the Tcl community.
+This is the Tcl/Tk binary repository, dedicated to the Tcl community.
 The build and source update cycle:
-- If the package is pulled from its main source (e.g. core.tcl-lang.org) then it is updated once a week.
-- The *fork-...* sources need to be updated manually since they have some enhancements in it, then they find its way into the next weekly build.
-Where a package comes from, when it was pulled and which branch is it, can be traced in the *share/documents/origins* file.
-On compile success the binaries get uploaded here: https://github.com/teclabat/tcltk-binaries/releases
+- Packages pulled from their main source (e.g. core.tcl-lang.org) are updated once a week.
+- The *fork-...* sources are updated manually since they contain custom enhancements; these are included in the next weekly build.
+Package origin, branch, and pull date can be traced in the *share/documents/origins* file.
+On successful compilation, binaries are uploaded here: https://github.com/teclabat/tcltk-binaries/releases
 
 **Tcl86** contains the following packages:
 
@@ -11,20 +11,20 @@ On compile success the binaries get uploaded here: https://github.com/teclabat/t
 |---------|--------|------------|-------------|
 | bwidget | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
 | critcl | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
-| curl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. Not included in Ubuntu Focal since it fails to build. |
+| curl | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. |
 | fftw | - | https://github.com/teclabat/tclfftw | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
 | itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
 | itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
 | iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
 | nats | - | https://github.com/teclabat/fork-nats-tcl | Tcl client library for the NATS messaging system. |
-| parseargs | wip | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Core-style argument parsing for scripts. |
-| performance | - | https://github.com/teclabat/tclperformance | High-performance cryptographic operations (XOR cipher). |
+| parseargs | wip | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Argument parsing for Tcl scripts. |
+| performance | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
 | photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
 | rl_json | wip | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
 | rsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
-| snmptools | - | https://github.com/teclabat/fork-snmptools | Sample TEA extension demonstrating the Tcl Extension Architecture. |
-| ssh2 | - | https://github.com/teclabat/fork-ssh2 | Provide SSH2 connectivity through libssh2.|
+| snmptools | - | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
+| ssh2 | - | https://github.com/teclabat/fork-ssh2 | Provide SSH2 connectivity through libssh2. |
 | tbcload | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler. |
 | tcl | core-8-6-branch | [https://core.tcl-lang.org/tcl](https://core.tcl-lang.org/tcl/timeline?r=core-8-6-branch) | Tool Command Language (Tcl) scripting language. |
 | tclcompiler | - | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format. |
@@ -42,23 +42,23 @@ On compile success the binaries get uploaded here: https://github.com/teclabat/t
 | tkimg | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
 | tklib | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
 | tktable | - | https://github.com/teclabat/fork-tktable | A table/matrix widget extension to Tcl/Tk. |
-| tls | tls-2.0 | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=tls-2.0) | SSL and TLS encryption over TCP using OpenSSL. |
+| tls | main | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=main) | SSL and TLS encryption over TCP using OpenSSL. |
 | tnm | wip | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
 | udp | wip | [https://github.com/teclabat/fork-tcludp](https://github.com/teclabat/fork-tcludp/tree/wip) | UDP socket support for Tcl. |
 | vectcl | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
 | xcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
-**Tcl90** still in work, but will follow asap ...
+**Tcl90** support is in progress.
 
-Occasionally the package registry might get deleted to save up some storage space. So please don't count on having kept old builds forever.
+Old releases may be removed periodically to save storage space.
 
-You can file issues here https://github.com/teclabat/tcltk-binaries/issues but I am not providing general Tcl support, for that I'd recommend https://stackoverflow.com/questions/tagged/tcl
+You can file issues here: https://github.com/teclabat/tcltk-binaries/issues. Note that I do not provide general Tcl support; for that I recommend https://stackoverflow.com/questions/tagged/tcl.
 
 ## Liability
-All the work presented here was completed during my free time. Please ensure that you comply with all license terms, particularly those specific to each individual package. Any damage resulting from the use of this code and binaries is not my responsibility. I provide no liability nor warranty for this software.
+All the work presented here was completed during my free time. Please ensure that you comply with all license terms, particularly those specific to each individual package. Any damage resulting from the use of this code and binaries is not my responsibility. I provide no warranty and accept no liability for this software.
 
 ## Windows builds
-For Windows builds the `MSYS2` 64bit environment is used (https://www.msys2.org). No installation is necessary, simply extract `.tgz` file and run. For some packages it might be necessary to put `share/lib64` into the executable search path.
+For Windows builds the `MSYS2` 64bit environment is used (https://www.msys2.org). No installation is necessary, simply extract the `.tgz` file and run. For some packages it might be necessary to put `share/lib64` into the executable search path.
 
 ## Debian builds
 For Debian builds the Ubuntu and Debian distributions are used. A `.deb` file is created and can be installed using `dpkg -i <file>`. The installation goes into `/opt/tcltk<version>`.
