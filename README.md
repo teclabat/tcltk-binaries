@@ -1,5 +1,9 @@
 This is the Tcl/Tk binary repository which I dedicate to the Tcl community.
-The main package sources (not the *fork-...* ones) are updated once a week, and on compile success the binaries uploaded here: https://github.com/teclabat/tcltk-binaries/releases
+The build and source update cycle:
+- If the package is pulled from its main source (e.g. core.tcl-lang.org) then it is updated once a week.
+- The *fork-...* sources need to be updated manually since they have some enhancements in it, then they find its way into the next weekly build.
+Where a package comes from, when it was pulled and which branch is it, can be traced in the *share/documents/origins* file.
+On compile success the binaries get uploaded here: https://github.com/teclabat/tcltk-binaries/releases
 
 **Tcl86** contains the following packages:
 
