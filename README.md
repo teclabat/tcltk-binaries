@@ -19,7 +19,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | nats | - | https://github.com/teclabat/fork-nats-tcl | Tcl client library for the NATS messaging system. |
 | parseargs | wip | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Argument parsing for Tcl scripts. |
 | performance | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
-| photoresize | - | https://github.com/auriocus/photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
+| photoresize | wip | https://github.com/teclabat/fork-photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
 | rl_json | wip | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
 | rsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
