@@ -24,7 +24,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | rsvisa | - | n/a | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | n/a | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
 | snmptools | - | n/a | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
-| ssh2 | - | n/a | https://github.com/teclabat/fork-tclssh2 | Provide SSH2 connectivity through libssh2. |
+| ssh2 | - | - | https://github.com/teclabat/fork-tclssh2 | Provide SSH2 connectivity through libssh2. |
 | tbcload | - | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler. |
 | tcl | core-8-6-branch | core-9-0-branch | [https://core.tcl-lang.org/tcl](https://core.tcl-lang.org/tcl/timeline?r=core-8-6-branch) | Tool Command Language (Tcl) scripting language. |
 | tclcompiler | - | n/a | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format. |
