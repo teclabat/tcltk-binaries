@@ -12,7 +12,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | bwidget | - | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
 | critcl | - | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
 | curl | - | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. |
-| fftw | - | n/a | https://github.com/teclabat/tclfftw | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
+| fftw | - | - | https://github.com/teclabat/tclfftw | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
 | itcl | itcl-4-0-6-rc | n/a | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
 | itk | itk-4-0-2-rc | n/a | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
 | iwidgets | - | n/a | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
