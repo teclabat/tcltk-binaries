@@ -41,7 +41,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | tkimg | - | - | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
 | tklib | - | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
 | tktable | - | - | https://github.com/teclabat/fork-tktable | A table/matrix widget extension to Tcl/Tk. |
-| tls | main | - | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=main) | SSL and TLS encryption over TCP using OpenSSL. |
+| tls | - | - | https://core.tcl-lang.org/tcltls | SSL and TLS encryption over TCP using OpenSSL. |
 | tnm | - | - | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
 | udp | - | n/a | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl. |
 | vectcl | - | n/a | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
