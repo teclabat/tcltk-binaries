@@ -17,10 +17,10 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | itk | itk-4-0-2-rc | n/a | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
 | iwidgets | - | n/a | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
 | nats | - | - | https://github.com/teclabat/fork-nats-tcl | Tcl client library for the NATS messaging system. |
-| parseargs | - | - | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Argument parsing for Tcl scripts. |
+| parseargs | - | - | https://github.com/teclabat/fork-parseargs | Argument parsing for Tcl scripts. |
 | performance | - | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
 | photoresize | - | - | https://github.com/teclabat/fork-photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
-| rl_json | - | - | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
+| rl_json | - | - | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type. |
 | rsvisa | - | n/a | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | n/a | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
 | snmptools | - | n/a | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
@@ -38,12 +38,12 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | thread | thread-2-8-branch | - | [https://core.tcl-lang.org/thread](https://core.tcl-lang.org/thread/timeline?r=thread-2-8-branch) | Script-level access to Tcl threading capabilities. |
 | tk | core-8-6-branch | core-9-0-branch | [https://core.tcl-lang.org/tk](https://core.tcl-lang.org/tk/timeline?r=core-8-6-branch) | Graphical user interface toolkit for Tcl. |
 | tkcon | - | - | https://github.com/teclabat/fork-tkcon | Enhanced Tk console for all platforms. |
-| tkimg | trunk | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
+| tkimg | - | - | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
 | tklib | - | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
 | tktable | - | - | https://github.com/teclabat/fork-tktable | A table/matrix widget extension to Tcl/Tk. |
 | tls | main | - | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=main) | SSL and TLS encryption over TCP using OpenSSL. |
 | tnm | - | - | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
-| udp | - | n/a | [https://github.com/teclabat/fork-tcludp](https://github.com/teclabat/fork-tcludp/tree/wip) | UDP socket support for Tcl. |
+| udp | - | n/a | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl. |
 | vectcl | - | n/a | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
 | xcursor | - | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
