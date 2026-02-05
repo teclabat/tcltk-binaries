@@ -5,7 +5,7 @@ This is the Tcl/Tk binary repository, dedicated to the Tcl community.\
 Package origin, branch, and pull date can be traced in the *share/documents/origins* file.\
 On successful compilation, binaries are uploaded here: https://github.com/teclabat/tcltk-binaries/releases
 
-**Tcl86 and Tcl9** contain the following packages, a dash means not bound to a dedicated branch but the default one is pulled:
+**Tcl86 and Tcl9** include the following packages. A dash indicates that the package is not bound to a dedicated branch and is instead pulled from the default branch.
 
 | Package | B8 | B9 | Repository | Description |
 |---------|----------------|----------------|------------|-------------|
