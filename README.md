@@ -7,7 +7,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 
 **Tcl86 and Tcl9** contain the following packages, a dash means not bound to a dedicated branch but the default one is pulled:
 
-| Package | Branch (Tcl 8) | Branch (Tcl 9) | Repository | Description |
+| Package | B8 | B9 | Repository | Description |
 |---------|----------------|----------------|------------|-------------|
 | bwidget | - | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
 | critcl | - | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
@@ -48,7 +48,8 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | xcursor | - | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
 **Tcl90** support is in progress. Packages marked with `n/a` in the Tcl 9 column are not yet migrated (and itcl stuff never will be).\
-* Marked items are bound to a commit-id because of an ongoing issue.
+* Marked items are bound to a commit-id because of an ongoing issue.\
+B8, B9 = Branch TCL8/9.\
 
 Old releases may be removed periodically to save storage space.
 
