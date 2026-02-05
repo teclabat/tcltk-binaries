@@ -5,50 +5,50 @@ This is the Tcl/Tk binary repository, dedicated to the Tcl community.\
 Package origin, branch, and pull date can be traced in the *share/documents/origins* file.\
 On successful compilation, binaries are uploaded here: https://github.com/teclabat/tcltk-binaries/releases
 
-**Tcl86** contains the following packages:
+**Tcl86 and Tcl9** contain the following packages, a dash means not bound to a dedicated branch but the default one is pulled:
 
-| Package | Branch | Repository | Description |
-|---------|--------|------------|-------------|
-| bwidget | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
-| critcl | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
-| curl | wip | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. |
-| fftw | - | https://github.com/teclabat/tclfftw | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
-| itcl | itcl-4-0-6-rc | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
-| itk | itk-4-0-2-rc | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
-| iwidgets | - | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
-| nats | - | https://github.com/teclabat/fork-nats-tcl | Tcl client library for the NATS messaging system. |
-| parseargs | wip | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Argument parsing for Tcl scripts. |
-| performance | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
-| photoresize | wip | https://github.com/teclabat/fork-photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
-| rl_json | wip | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
-| rsvisa | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
-| ruff | - | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
-| snmptools | - | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
-| ssh2 | - | https://github.com/teclabat/fork-ssh2 | Provide SSH2 connectivity through libssh2. |
-| tbcload | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler. |
-| tcl | core-8-6-branch | [https://core.tcl-lang.org/tcl](https://core.tcl-lang.org/tcl/timeline?r=core-8-6-branch) | Tool Command Language (Tcl) scripting language. |
-| tclcompiler | - | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format. |
-| tclconfig | - | https://core.tcl-lang.org/tclconfig | Building blocks for Tcl Extension Architecture (TEA). |
-| tcllib | - | https://core.tcl-lang.org/tcllib | Collection of Tcl packages providing utility functions. |
-| tdbc | - | https://core.tcl-lang.org/tdbc | Base classes and SQL tokenizer for Tcl Database Connectivity. |
-| tdbcmysql | - | https://core.tcl-lang.org/tdbcmysql | TDBC driver for MySQL databases. |
-| tdbcodbc | - | https://core.tcl-lang.org/tdbcodbc | TDBC driver for ODBC (Open Database Connectivity). |
-| tdbcpostgres | - | https://core.tcl-lang.org/tdbcpostgres | TDBC driver for PostgreSQL databases. |
-| tdbcsqlite3 | - | https://core.tcl-lang.org/tdbcsqlite3 | TDBC driver for SQLite3 databases. |
-| tdom | - | https://www.tdom.org/index.html | XML/DOM/XPath/XSLT/HTML/JSON implementation for Tcl. |
-| thread | thread-2-8-branch | [https://core.tcl-lang.org/thread](https://core.tcl-lang.org/thread/timeline?r=thread-2-8-branch) | Script-level access to Tcl threading capabilities. |
-| tk | core-8-6-branch | [https://core.tcl-lang.org/tk](https://core.tcl-lang.org/tk/timeline?r=core-8-6-branch) | Graphical user interface toolkit for Tcl. |
-| tkcon | - | https://github.com/teclabat/fork-tkcon | Enhanced Tk console for all platforms. |
-| tkimg | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
-| tklib | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
-| tktable | - | https://github.com/teclabat/fork-tktable | A table/matrix widget extension to Tcl/Tk. |
-| tls | main | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=main) | SSL and TLS encryption over TCP using OpenSSL. |
-| tnm | wip | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
-| udp | wip | [https://github.com/teclabat/fork-tcludp](https://github.com/teclabat/fork-tcludp/tree/wip) | UDP socket support for Tcl. |
-| vectcl | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
-| xcursor | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
+| Package | Branch (Tcl 8) | Branch (Tcl 9) | Repository | Description |
+|---------|----------------|----------------|------------|-------------|
+| bwidget | - | - | https://core.tcl-lang.org/bwidget | High-level Widget Set for Tcl/Tk built using native Tcl/Tk namespaces. |
+| critcl | - | - | https://github.com/andreas-kupries/critcl | Build C extension packages for Tcl on the fly from C code embedded in Tcl scripts. |
+| curl | - | - | https://github.com/teclabat/fork-tclcurl | Tcl interface to libcurl for URL operations with HTTP, FTP, and more. |
+| fftw | - | n/a | https://github.com/teclabat/tclfftw | High-performance interface to FFTW3 library for Fast Fourier Transform operations. |
+| itcl | itcl-4-0-6-rc | n/a | https://core.tcl-lang.org/itcl | Object oriented extension for Tcl. |
+| itk | itk-4-0-2-rc | n/a | https://core.tcl-lang.org/itk | Framework for building composite mega-widgets using [incr Tcl] classes. |
+| iwidgets | - | n/a | https://core.tcl-lang.org/iwidgets | Widget collection for itk4. |
+| nats | - | - | https://github.com/teclabat/fork-nats-tcl | Tcl client library for the NATS messaging system. |
+| parseargs | - | - | [https://github.com/teclabat/fork-parseargs](https://github.com/teclabat/fork-parseargs/tree/wip) | Argument parsing for Tcl scripts. |
+| performance | - | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
+| photoresize | - | - | https://github.com/teclabat/fork-photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
+| rl_json | - | - | [https://github.com/teclabat/fork-rljson](https://github.com/teclabat/fork-rljson/tree/wip) | JSON parser and generator with native Tcl_Obj type. |
+| rsvisa | - | n/a | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
+| ruff | - | n/a | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
+| snmptools | - | n/a | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
+| ssh2 | - | n/a | https://github.com/teclabat/fork-ssh2 | Provide SSH2 connectivity through libssh2. |
+| tbcload | - | - | https://github.com/teclabat/fork-tbcload | Loads Tcl byte code compiled by tclcompiler. |
+| tcl | core-8-6-branch | core-9-0-branch | [https://core.tcl-lang.org/tcl](https://core.tcl-lang.org/tcl/timeline?r=core-8-6-branch) | Tool Command Language (Tcl) scripting language. |
+| tclcompiler | - | n/a | https://github.com/teclabat/fork-tclcompiler | Compiles Tcl scripts into byte code format. |
+| tcllib | - | - | https://core.tcl-lang.org/tcllib | Collection of Tcl packages providing utility functions. |
+| tdbc | - | - | https://core.tcl-lang.org/tdbc | Base classes and SQL tokenizer for Tcl Database Connectivity. |
+| tdbcmysql | - | - | https://core.tcl-lang.org/tdbcmysql | TDBC driver for MySQL databases. |
+| tdbcodbc | 4ced1c9409* | 4ced1c9409* | https://core.tcl-lang.org/tdbcodbc | TDBC driver for ODBC (Open Database Connectivity). |
+| tdbcpostgres | 48bec53fd0* | 48bec53fd0* | https://core.tcl-lang.org/tdbcpostgres | TDBC driver for PostgreSQL databases. |
+| tdbcsqlite3 | - | - | https://core.tcl-lang.org/tdbcsqlite3 | TDBC driver for SQLite3 databases. |
+| tdom | - | - | https://www.tdom.org/index.html | XML/DOM/XPath/XSLT/HTML/JSON implementation for Tcl. |
+| thread | thread-2-8-branch | - | [https://core.tcl-lang.org/thread](https://core.tcl-lang.org/thread/timeline?r=thread-2-8-branch) | Script-level access to Tcl threading capabilities. |
+| tk | core-8-6-branch | core-9-0-branch | [https://core.tcl-lang.org/tk](https://core.tcl-lang.org/tk/timeline?r=core-8-6-branch) | Graphical user interface toolkit for Tcl. |
+| tkcon | - | - | https://github.com/teclabat/fork-tkcon | Enhanced Tk console for all platforms. |
+| tkimg | trunk | trunk | https://sourceforge.net/p/tkimg | Collection of image format handlers for Tk photo image type. |
+| tklib | - | - | https://core.tcl-lang.org/tklib | Collection of Tk packages providing utility functions. |
+| tktable | - | - | https://github.com/teclabat/fork-tktable | A table/matrix widget extension to Tcl/Tk. |
+| tls | main | - | [https://core.tcl-lang.org/tcltls](https://core.tcl-lang.org/tcltls/timeline?r=main) | SSL and TLS encryption over TCP using OpenSSL. |
+| tnm | - | - | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
+| udp | - | n/a | [https://github.com/teclabat/fork-tcludp](https://github.com/teclabat/fork-tcludp/tree/wip) | UDP socket support for Tcl. |
+| vectcl | - | n/a | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
+| xcursor | - | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
-**Tcl90** support is in progress.
+**Tcl90** support is in progress. Packages marked with `n/a` in the Tcl 9 column are not yet migrated (and itcl stuff never will be).\
+* Marked items are bound to a commit-id because of an ongoing issue.
 
 Old releases may be removed periodically to save storage space.
 
