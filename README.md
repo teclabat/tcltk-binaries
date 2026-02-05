@@ -21,7 +21,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | performance | - | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
 | photoresize | - | - | https://github.com/teclabat/fork-photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
 | rl_json | - | - | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type. |
-| rsvisa | - | n/a | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
+| rsvisa | - | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | n/a | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
 | snmptools | - | n/a | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
 | ssh2 | - | - | https://github.com/teclabat/fork-tclssh2 | Provide SSH2 connectivity through libssh2. |
