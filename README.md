@@ -48,7 +48,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | xcursor | - | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
 **Tcl90** support is in progress. Packages marked with `n/a` in the Tcl 9 column are not yet migrated (and itcl stuff never will be).\
-* Marked items are bound to a commit-id because of an ongoing issue.\
+\* Marked items are bound to a commit-id because of an ongoing issue.\
 B8, B9 = Branch TCL8/9.\
 
 Old releases may be removed periodically to save storage space.
