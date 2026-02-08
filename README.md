@@ -44,7 +44,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | tls | - | - | https://core.tcl-lang.org/tcltls | SSL and TLS encryption over TCP using OpenSSL. |
 | tnm | - | - | https://github.com/teclabat/fork-scotty | Scotty Tcl extension for network management. |
 | udp | - | n/a | https://github.com/teclabat/fork-tcludp | UDP socket support for Tcl. |
-| vectcl | - | n/a | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
+| vectcl | - | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
 | xcursor | - | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
 **Tcl90** support is in progress. Packages marked with `n/a` in the Tcl 9 column are not yet migrated (and itcl stuff never will be).\
