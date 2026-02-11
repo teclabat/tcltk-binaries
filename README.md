@@ -47,7 +47,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | vectcl | - | - | https://github.com/teclabat/fork-vectcl | Numerical array extension with support for vectors, matrices and tensors. |
 | xcursor | - | - | https://github.com/teclabat/tkxcursor | Support for X Cursor library cursor files in Tk applications. |
 
-**Tcl90** support is in progress. Packages marked with `n/a` in the Tcl 9 column are not yet migrated (and itcl stuff never will be).\
+**Tcl90** support is in progress. Packages marked with `n/a` in the B9 column are not yet migrated (and itcl stuff never will be).\
 \* Marked items are bound to a commit-id because of an ongoing issue.\
 B8, B9 = Branch TCL8/9.
 
@@ -66,3 +66,6 @@ For Debian builds the Ubuntu and Debian distributions are used. A `.deb` file is
 
 ## RPM builds
 For RPM builds the RedHat distributions are used. A `.rpm` file is created and can be installed using `rpm -i <file>`. The installation goes into `/opt/tcltk<version>`.
+
+## Support from AI
+I had much support from claude.ai migrating packages from Tcl86 to Tcl90. All changes have been reviewed, mostly Tcl_Size changes, init calls etc. Much details can be found in the TECLABCHANGES.md files.
