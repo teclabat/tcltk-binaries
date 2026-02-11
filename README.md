@@ -68,4 +68,4 @@ For Debian builds the Ubuntu and Debian distributions are used. A `.deb` file is
 For RPM builds the RedHat distributions are used. A `.rpm` file is created and can be installed using `rpm -i <file>`. The installation goes into `/opt/tcltk<version>`.
 
 ## Support from AI
-I had much support from claude.ai migrating packages from Tcl86 to Tcl90. All changes have been reviewed, mostly Tcl_Size changes, init calls etc. Much details can be found in the TECLABCHANGES.md files.
+I had much support from claude.ai migrating packages from Tcl86 to Tcl90. All changes have been reviewed, mostly `Tcl_Size` related changes, `init` calls etc. Much details can be found in the TECLABCHANGES.md files.
