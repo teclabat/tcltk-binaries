@@ -20,7 +20,7 @@ On successful compilation, binaries are uploaded here: https://github.com/teclab
 | parseargs | - | - | https://github.com/teclabat/fork-parseargs | Argument parsing for Tcl scripts. |
 | performance | - | - | https://github.com/teclabat/tclperformance | High-performance XOR operations. |
 | photoresize | - | - | https://github.com/teclabat/fork-photoresize | Extension to resize and resample photo images with high-quality antialiasing. |
-| rl_json | - | - | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type. |
+| rljson | - | - | https://github.com/teclabat/fork-rljson | JSON parser and generator with native Tcl_Obj type. |
 | rsvisa | - | - | https://github.com/teclabat/tclrsvisa | Interface to VISA library for test and measurement instrument control. |
 | ruff | - | n/a | https://github.com/teclabat/fork-tclruff | Documentation generator for Tcl using runtime introspection. |
 | snmptools | - | n/a | https://github.com/teclabat/fork-snmptools | SNMP tools built using the Tcl Extension Architecture. |
