@@ -69,3 +69,18 @@ For RPM builds the RedHat distributions are used. A `.rpm` file is created and c
 
 ## Support from AI
 I had much support from claude.ai migrating packages from Tcl86 to Tcl90. All changes have been reviewed, mostly `Tcl_Size` related changes, `init` calls etc. Much details can be found in the TECLABCHANGES.md files.
+
+## History
+- **14/02/2026** Tcl90 now with `tcludp`, also fixed IPv6 multicast error
+- **12/02/2026** Initial set of Tcl90 binaries with a limited (but nice) set of packages for download. Official announcement on reddit.
+- **08/02/2026** Migrated `vectcl` to Tcl90.
+- **05/02/2026** Migrated `fftw` and `rsvisa` to Tcl90.
+- **04/02/2026** Migrated `photoresize` to Tcl90.
+- **25/01/2026** Added `tktable` to our package list.
+- **28/01/2026** Full set of Tcl86 binaries available for download. Official announcement on reddit.
+- **28/01/2026** Added `nats` to our package list.
+- **10/02/2026** Added `scotty/tnm` to our package list.
+- **04/01/2026** Added `ssh2` to our package list.
+- **23/11/2025** Added `ruff` to our package list.
+- **20/11/2025** Added `curl` to our package list.
+    
