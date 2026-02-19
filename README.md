@@ -71,7 +71,8 @@ For RPM builds the RedHat distributions are used. A `.rpm` file is created and c
 I had much support from claude.ai migrating packages from Tcl86 to Tcl90. All changes have been reviewed, mostly `Tcl_Size` related changes, `init` calls etc. Much details can be found in the TECLABCHANGES.md files.
 
 ## History
-- **14/02/2026** Tcl90 now with `tcludp`, also fixed IPv6 multicast error
+- **19/02/2026** `ruff` is now part of both binary distributions.
+- **14/02/2026** Tcl90 now with `tcludp`, also fixed IPv6 multicast error.
 - **12/02/2026** Initial set of Tcl90 binaries with a limited (but nice) set of packages for download. Official announcement on reddit.
 - **08/02/2026** Migrated `vectcl` to Tcl90.
 - **05/02/2026** Migrated `fftw` and `rsvisa` to Tcl90.
